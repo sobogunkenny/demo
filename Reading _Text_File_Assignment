@@ -29,10 +29,12 @@ def count_words(filename):
             
     for key in list(d.keys()):
         print(key, ":" , d[key])
+    return d
     
     
 read_file_content(filename)
 
-count_words(filename)
+counter = count_words(filename)
+print(dict[counter])
     
     
