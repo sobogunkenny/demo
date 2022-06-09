@@ -15,7 +15,7 @@ def divide(a, z):
  
     # This function takes two numbers, divides them and return the remainder. 
 def modulas(a, z):
-    return a / z 
+    return a % z 
 
 print("Select operation.") 
 print("1.Addition") 
@@ -43,7 +43,7 @@ while True:
         elif choice == '4':
             print(numb1, "/", numb2, "=", divide(numb1, numb2))
         elif choice == '5':
-            print(numb1, "//", numb2, "=", modulas(numb1, numb2))
+            print(numb1, "%", numb2, "=", modulas(numb1, numb2))
         break 
     else: 
         print("Invalid Input") 
